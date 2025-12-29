@@ -1,0 +1,35 @@
+model:
+  name: GPT-4o
+  version: "2024-11-20"
+  provider: OpenAI
+  type: commercial
+
+method:
+  name: direct
+  description: Direct prompting without chain-of-thought
+
+submission:
+  date: "2025-12-29"
+  author: "OpenAI Team"
+  email: "contact@openai.com"
+  organization: OpenAI
+  
+evaluation:
+  dataset: design2code
+  split: test
+  num_instances: 20
+  
+hyperparameters:
+  temperature: 0.0
+  max_tokens: 4096
+  top_p: 1.0
+
+tags:
+  - GPT
+  - Multimodal
+  - Commercial
+  - Vision
+
+notes: |
+  Direct prompting approach using GPT-4o vision capabilities.
+  No special preprocessing or post-processing applied.

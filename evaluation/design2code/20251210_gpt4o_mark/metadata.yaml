@@ -1,0 +1,36 @@
+model:
+  name: GPT-4o
+  version: "2024-11-20"
+  provider: OpenAI
+  type: commercial
+
+method:
+  name: mark
+  description: Set-of-Mark prompting with visual markers
+
+submission:
+  date: "2025-12-10"
+  author: "Research Team"
+  email: "research@example.com"
+  organization: OpenAI
+  
+evaluation:
+  dataset: design2code
+  split: test
+  num_instances: 20
+  
+hyperparameters:
+  temperature: 0.0
+  max_tokens: 4096
+  top_p: 1.0
+
+tags:
+  - GPT
+  - Multimodal
+  - Commercial
+  - Vision
+  - Set-of-Mark
+
+notes: |
+  Set-of-Mark prompting approach using visual element markers.
+  Elements are numbered and referenced during generation.

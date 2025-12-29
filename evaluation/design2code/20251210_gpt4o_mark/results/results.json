@@ -1,0 +1,57 @@
+{
+  "submission": "20251210_gpt4o_mark",
+  "model": "gpt-4o",
+  "method": "mark",
+  "dataset": "design2code",
+  "timestamp": "2025-12-10T12:00:00Z",
+  "metrics": {
+    "clip": {
+      "average": 0.6733,
+      "min": 0.6444,
+      "max": 0.7055
+    },
+    "ssim": {
+      "average": 0.4988,
+      "min": 0.4733,
+      "max": 0.5188
+    },
+    "text_similarity": {
+      "average": 0.5122,
+      "min": 0.4866,
+      "max": 0.5322
+    },
+    "position_accuracy": {
+      "average": 0.5877,
+      "min": 0.5633,
+      "max": 0.6088
+    },
+    "image_reproduction": {
+      "average": 0.8844,
+      "min": 0.86,
+      "max": 0.9055
+    }
+  },
+  "overall_score": 0.6312800000000001,
+  "instance_stats": {
+    "total": 20,
+    "resolved": 19,
+    "failed": 1,
+    "resolve_rate": 0.95,
+    "error_breakdown": {
+      "timeout": 1
+    }
+  },
+  "metadata": {
+    "model_name": "GPT-4o",
+    "provider": "OpenAI",
+    "method_name": "mark",
+    "tags": [
+      "GPT",
+      "Multimodal",
+      "Commercial",
+      "Vision",
+      "Set-of-Mark"
+    ],
+    "organization": "OpenAI"
+  }
+}

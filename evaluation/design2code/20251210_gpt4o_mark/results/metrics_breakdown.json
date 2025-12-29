@@ -1,0 +1,27 @@
+{
+  "clip": {
+    "average": 0.6733,
+    "min": 0.6444,
+    "max": 0.7055
+  },
+  "ssim": {
+    "average": 0.4988,
+    "min": 0.4733,
+    "max": 0.5188
+  },
+  "text_similarity": {
+    "average": 0.5122,
+    "min": 0.4866,
+    "max": 0.5322
+  },
+  "position_accuracy": {
+    "average": 0.5877,
+    "min": 0.5633,
+    "max": 0.6088
+  },
+  "image_reproduction": {
+    "average": 0.8844,
+    "min": 0.86,
+    "max": 0.9055
+  }
+}
